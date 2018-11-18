@@ -1,3 +1,13 @@
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --global core.editor emacs
+git config --list
+git config user.name
+
+git help <verb>
+man git-<verb>
+
+
 # create a new repository on the command line
 
 echo "# test-02" >> README.md
